@@ -1,0 +1,26 @@
+.board {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+    border: 2px solid black;
+    width: 300px;
+}
+
+.card {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+}
+
+form {
+    margin-left: 20px;
+    display: grid;
+    grid-template: 1fr 50px / 1fr 1fr;
+    gap: 20px;
+}
